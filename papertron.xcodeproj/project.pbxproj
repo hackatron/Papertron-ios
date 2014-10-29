@@ -7,29 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B9449A5919FEED94008E334D /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9449A4F19FEED94008E334D /* AudioToolbox.framework */; };
-		B9449A5A19FEED94008E334D /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9449A5019FEED94008E334D /* CFNetwork.framework */; };
-		B9449A5B19FEED94008E334D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9449A5119FEED94008E334D /* CoreGraphics.framework */; };
-		B9449A5C19FEED94008E334D /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9449A5219FEED94008E334D /* CoreLocation.framework */; };
-		B9449A5D19FEED94008E334D /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B9449A5319FEED94008E334D /* libz.dylib */; };
-		B9449A5E19FEED94008E334D /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9449A5419FEED94008E334D /* MobileCoreServices.framework */; };
-		B9449A5F19FEED94008E334D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9449A5519FEED94008E334D /* QuartzCore.framework */; };
-		B9449A6019FEED94008E334D /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9449A5619FEED94008E334D /* Security.framework */; };
-		B9449A6119FEED94008E334D /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9449A5719FEED94008E334D /* StoreKit.framework */; };
-		B9449A6219FEED94008E334D /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9449A5819FEED94008E334D /* SystemConfiguration.framework */; };
+		3471AD1416154D898A53D772 /* libPods-papertronTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 616FCEC294634EA48B2F5240 /* libPods-papertronTests.a */; };
+		4996C2F11A0119DA00EAD12F /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4996C2F01A0119DA00EAD12F /* NotificationCenter.framework */; };
+		4996C2F61A0119DA00EAD12F /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4996C2F51A0119DA00EAD12F /* TodayViewController.swift */; };
+		4996C2F81A0119DA00EAD12F /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4996C2F71A0119DA00EAD12F /* MainInterface.storyboard */; };
+		4996C2FB1A0119DA00EAD12F /* PapertronToday.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 4996C2EF1A0119DA00EAD12F /* PapertronToday.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		49E773D319FFA699000171DA /* parseData.plist in Resources */ = {isa = PBXBuildFile; fileRef = 49E773D219FFA699000171DA /* parseData.plist */; };
 		B980C0FF19FE4D2A004D6FB9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B980C0FE19FE4D2A004D6FB9 /* AppDelegate.swift */; };
 		B980C10119FE4D2A004D6FB9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B980C10019FE4D2A004D6FB9 /* ViewController.swift */; };
 		B980C10419FE4D2A004D6FB9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B980C10219FE4D2A004D6FB9 /* Main.storyboard */; };
 		B980C10619FE4D2A004D6FB9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B980C10519FE4D2A004D6FB9 /* Images.xcassets */; };
 		B980C10919FE4D2A004D6FB9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B980C10719FE4D2A004D6FB9 /* LaunchScreen.xib */; };
 		B980C11519FE4D2A004D6FB9 /* papertronTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B980C11419FE4D2A004D6FB9 /* papertronTests.swift */; };
-		B99111C919FEF16000C734E0 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B99111C619FEF16000C734E0 /* Bolts.framework */; };
-		B99111CA19FEF16000C734E0 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B99111C719FEF16000C734E0 /* Parse.framework */; };
-		B99111CB19FEF16000C734E0 /* ParseFacebookUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B99111C819FEF16000C734E0 /* ParseFacebookUtils.framework */; };
-		B99111D119FEF3EB00C734E0 /* parseData.plist in Resources */ = {isa = PBXBuildFile; fileRef = B99111D019FEF3EB00C734E0 /* parseData.plist */; };
+		ECA61D8B9AC842C1AA179ED4 /* libPods-PapertronToday.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A10A4BD2E0E44B087E5B2ED /* libPods-PapertronToday.a */; };
+		FD3C5960ECE44BBDBB04FC9A /* libPods-papertron.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F59E5840E82945EBB2CC55A7 /* libPods-papertron.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		4996C2F91A0119DA00EAD12F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B980C0F119FE4D2A004D6FB9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4996C2EE1A0119DA00EAD12F;
+			remoteInfo = PapertronToday;
+		};
 		B980C10F19FE4D2A004D6FB9 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = B980C0F119FE4D2A004D6FB9 /* Project object */;
@@ -39,17 +40,30 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		49E773E819FFA7BA000171DA /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				4996C2FB1A0119DA00EAD12F /* PapertronToday.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
-		B9449A4F19FEED94008E334D /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
-		B9449A5019FEED94008E334D /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
-		B9449A5119FEED94008E334D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		B9449A5219FEED94008E334D /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
-		B9449A5319FEED94008E334D /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
-		B9449A5419FEED94008E334D /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
-		B9449A5519FEED94008E334D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
-		B9449A5619FEED94008E334D /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
-		B9449A5719FEED94008E334D /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
-		B9449A5819FEED94008E334D /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		2282C21591DD471A92606F17 /* Pods-PapertronToday.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PapertronToday.xcconfig"; path = "Pods/Pods-PapertronToday.xcconfig"; sourceTree = "<group>"; };
+		3A10A4BD2E0E44B087E5B2ED /* libPods-PapertronToday.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PapertronToday.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4996C2EF1A0119DA00EAD12F /* PapertronToday.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = PapertronToday.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		4996C2F01A0119DA00EAD12F /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
+		4996C2F41A0119DA00EAD12F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4996C2F51A0119DA00EAD12F /* TodayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayViewController.swift; sourceTree = "<group>"; };
+		4996C2F71A0119DA00EAD12F /* MainInterface.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainInterface.storyboard; sourceTree = "<group>"; };
+		49E773D219FFA699000171DA /* parseData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = parseData.plist; sourceTree = "<group>"; };
+		616FCEC294634EA48B2F5240 /* libPods-papertronTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-papertronTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B980C0F919FE4D2A004D6FB9 /* papertron.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = papertron.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B980C0FD19FE4D2A004D6FB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B980C0FE19FE4D2A004D6FB9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -60,31 +74,28 @@
 		B980C10E19FE4D2A004D6FB9 /* papertronTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = papertronTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B980C11319FE4D2A004D6FB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B980C11419FE4D2A004D6FB9 /* papertronTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = papertronTests.swift; sourceTree = "<group>"; };
-		B99111C619FEF16000C734E0 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
-		B99111C719FEF16000C734E0 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
-		B99111C819FEF16000C734E0 /* ParseFacebookUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseFacebookUtils.framework; sourceTree = "<group>"; };
 		B99111CC19FEF36B00C734E0 /* papertron-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "papertron-Bridging-Header.h"; sourceTree = "<group>"; };
-		B99111D019FEF3EB00C734E0 /* parseData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = parseData.plist; sourceTree = "<group>"; };
+		C0C8D225DEF64DAC98C78FF4 /* libPods-papertronToday.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-papertronToday.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C988B46CA6474599A049E8E1 /* Pods-papertronTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-papertronTests.xcconfig"; path = "Pods/Pods-papertronTests.xcconfig"; sourceTree = "<group>"; };
+		F521CB8C99924942A92EE19F /* Pods-papertron.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-papertron.xcconfig"; path = "Pods/Pods-papertron.xcconfig"; sourceTree = "<group>"; };
+		F59E5840E82945EBB2CC55A7 /* libPods-papertron.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-papertron.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		4996C2EC1A0119DA00EAD12F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4996C2F11A0119DA00EAD12F /* NotificationCenter.framework in Frameworks */,
+				ECA61D8B9AC842C1AA179ED4 /* libPods-PapertronToday.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B980C0F619FE4D2A004D6FB9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B9449A5919FEED94008E334D /* AudioToolbox.framework in Frameworks */,
-				B9449A5A19FEED94008E334D /* CFNetwork.framework in Frameworks */,
-				B9449A5B19FEED94008E334D /* CoreGraphics.framework in Frameworks */,
-				B9449A5C19FEED94008E334D /* CoreLocation.framework in Frameworks */,
-				B9449A5D19FEED94008E334D /* libz.dylib in Frameworks */,
-				B9449A5E19FEED94008E334D /* MobileCoreServices.framework in Frameworks */,
-				B9449A5F19FEED94008E334D /* QuartzCore.framework in Frameworks */,
-				B9449A6019FEED94008E334D /* Security.framework in Frameworks */,
-				B99111C919FEF16000C734E0 /* Bolts.framework in Frameworks */,
-				B9449A6119FEED94008E334D /* StoreKit.framework in Frameworks */,
-				B99111CA19FEF16000C734E0 /* Parse.framework in Frameworks */,
-				B9449A6219FEED94008E334D /* SystemConfiguration.framework in Frameworks */,
-				B99111CB19FEF16000C734E0 /* ParseFacebookUtils.framework in Frameworks */,
+				FD3C5960ECE44BBDBB04FC9A /* libPods-papertron.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -92,28 +103,39 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3471AD1416154D898A53D772 /* libPods-papertronTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4996C2F21A0119DA00EAD12F /* PapertronToday */ = {
+			isa = PBXGroup;
+			children = (
+				4996C2F51A0119DA00EAD12F /* TodayViewController.swift */,
+				4996C2F71A0119DA00EAD12F /* MainInterface.storyboard */,
+				4996C2F31A0119DA00EAD12F /* Supporting Files */,
+			);
+			path = PapertronToday;
+			sourceTree = "<group>";
+		};
+		4996C2F31A0119DA00EAD12F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4996C2F41A0119DA00EAD12F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		B9449A6319FEED9F008E334D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				B99111C619FEF16000C734E0 /* Bolts.framework */,
-				B99111C719FEF16000C734E0 /* Parse.framework */,
-				B99111C819FEF16000C734E0 /* ParseFacebookUtils.framework */,
-				B9449A4F19FEED94008E334D /* AudioToolbox.framework */,
-				B9449A5019FEED94008E334D /* CFNetwork.framework */,
-				B9449A5119FEED94008E334D /* CoreGraphics.framework */,
-				B9449A5219FEED94008E334D /* CoreLocation.framework */,
-				B9449A5319FEED94008E334D /* libz.dylib */,
-				B9449A5419FEED94008E334D /* MobileCoreServices.framework */,
-				B9449A5519FEED94008E334D /* QuartzCore.framework */,
-				B9449A5619FEED94008E334D /* Security.framework */,
-				B9449A5719FEED94008E334D /* StoreKit.framework */,
-				B9449A5819FEED94008E334D /* SystemConfiguration.framework */,
+				F59E5840E82945EBB2CC55A7 /* libPods-papertron.a */,
+				616FCEC294634EA48B2F5240 /* libPods-papertronTests.a */,
+				C0C8D225DEF64DAC98C78FF4 /* libPods-papertronToday.a */,
+				4996C2F01A0119DA00EAD12F /* NotificationCenter.framework */,
+				3A10A4BD2E0E44B087E5B2ED /* libPods-PapertronToday.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -121,10 +143,14 @@
 		B980C0F019FE4D2A004D6FB9 = {
 			isa = PBXGroup;
 			children = (
+				4996C2F21A0119DA00EAD12F /* PapertronToday */,
 				B9449A6319FEED9F008E334D /* Frameworks */,
 				B980C0FB19FE4D2A004D6FB9 /* papertron */,
 				B980C11119FE4D2A004D6FB9 /* papertronTests */,
 				B980C0FA19FE4D2A004D6FB9 /* Products */,
+				F521CB8C99924942A92EE19F /* Pods-papertron.xcconfig */,
+				C988B46CA6474599A049E8E1 /* Pods-papertronTests.xcconfig */,
+				2282C21591DD471A92606F17 /* Pods-PapertronToday.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -133,6 +159,7 @@
 			children = (
 				B980C0F919FE4D2A004D6FB9 /* papertron.app */,
 				B980C10E19FE4D2A004D6FB9 /* papertronTests.xctest */,
+				4996C2EF1A0119DA00EAD12F /* PapertronToday.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -140,7 +167,6 @@
 		B980C0FB19FE4D2A004D6FB9 /* papertron */ = {
 			isa = PBXGroup;
 			children = (
-				B99111D019FEF3EB00C734E0 /* parseData.plist */,
 				B980C0FE19FE4D2A004D6FB9 /* AppDelegate.swift */,
 				B980C10019FE4D2A004D6FB9 /* ViewController.swift */,
 				B980C10219FE4D2A004D6FB9 /* Main.storyboard */,
@@ -148,6 +174,7 @@
 				B980C10719FE4D2A004D6FB9 /* LaunchScreen.xib */,
 				B980C0FC19FE4D2A004D6FB9 /* Supporting Files */,
 				B99111CC19FEF36B00C734E0 /* papertron-Bridging-Header.h */,
+				49E773D219FFA699000171DA /* parseData.plist */,
 			);
 			path = papertron;
 			sourceTree = "<group>";
@@ -180,17 +207,40 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B980C0F819FE4D2A004D6FB9 /* papertron */ = {
+		4996C2EE1A0119DA00EAD12F /* PapertronToday */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B980C11819FE4D2A004D6FB9 /* Build configuration list for PBXNativeTarget "papertron" */;
+			buildConfigurationList = 4996C2FC1A0119DA00EAD12F /* Build configuration list for PBXNativeTarget "PapertronToday" */;
 			buildPhases = (
-				B980C0F519FE4D2A004D6FB9 /* Sources */,
-				B980C0F619FE4D2A004D6FB9 /* Frameworks */,
-				B980C0F719FE4D2A004D6FB9 /* Resources */,
+				7D4C417BC4E14ECE8436F383 /* Check Pods Manifest.lock */,
+				4996C2EB1A0119DA00EAD12F /* Sources */,
+				4996C2EC1A0119DA00EAD12F /* Frameworks */,
+				4996C2ED1A0119DA00EAD12F /* Resources */,
+				3ADB662659A94849857E83A8 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+			);
+			name = PapertronToday;
+			productName = PapertronToday;
+			productReference = 4996C2EF1A0119DA00EAD12F /* PapertronToday.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		B980C0F819FE4D2A004D6FB9 /* papertron */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B980C11819FE4D2A004D6FB9 /* Build configuration list for PBXNativeTarget "papertron" */;
+			buildPhases = (
+				4082932A0A904845B6F737F4 /* Check Pods Manifest.lock */,
+				B980C0F519FE4D2A004D6FB9 /* Sources */,
+				B980C0F619FE4D2A004D6FB9 /* Frameworks */,
+				B980C0F719FE4D2A004D6FB9 /* Resources */,
+				49E773E819FFA7BA000171DA /* Embed App Extensions */,
+				ABEB1E14C8224B27AC2E8BEC /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4996C2FA1A0119DA00EAD12F /* PBXTargetDependency */,
 			);
 			name = papertron;
 			productName = papertron;
@@ -201,9 +251,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B980C11B19FE4D2A004D6FB9 /* Build configuration list for PBXNativeTarget "papertronTests" */;
 			buildPhases = (
+				124D94A75EFE45EAB5C13C66 /* Check Pods Manifest.lock */,
 				B980C10A19FE4D2A004D6FB9 /* Sources */,
 				B980C10B19FE4D2A004D6FB9 /* Frameworks */,
 				B980C10C19FE4D2A004D6FB9 /* Resources */,
+				A00191199BFA4B43AECD8B19 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -224,6 +276,10 @@
 				LastUpgradeCheck = 0610;
 				ORGANIZATIONNAME = Hackatron;
 				TargetAttributes = {
+					4996C2EE1A0119DA00EAD12F = {
+						CreatedOnToolsVersion = 6.1;
+						DevelopmentTeam = B82WJF6RBY;
+					};
 					B980C0F819FE4D2A004D6FB9 = {
 						CreatedOnToolsVersion = 6.1;
 						DevelopmentTeam = B82WJF6RBY;
@@ -249,18 +305,27 @@
 			targets = (
 				B980C0F819FE4D2A004D6FB9 /* papertron */,
 				B980C10D19FE4D2A004D6FB9 /* papertronTests */,
+				4996C2EE1A0119DA00EAD12F /* PapertronToday */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		4996C2ED1A0119DA00EAD12F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4996C2F81A0119DA00EAD12F /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B980C0F719FE4D2A004D6FB9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				B980C10419FE4D2A004D6FB9 /* Main.storyboard in Resources */,
 				B980C10919FE4D2A004D6FB9 /* LaunchScreen.xib in Resources */,
-				B99111D119FEF3EB00C734E0 /* parseData.plist in Resources */,
+				49E773D319FFA699000171DA /* parseData.plist in Resources */,
 				B980C10619FE4D2A004D6FB9 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -274,7 +339,108 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		124D94A75EFE45EAB5C13C66 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		3ADB662659A94849857E83A8 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-PapertronToday-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4082932A0A904845B6F737F4 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7D4C417BC4E14ECE8436F383 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A00191199BFA4B43AECD8B19 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-papertronTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ABEB1E14C8224B27AC2E8BEC /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-papertron-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
+		4996C2EB1A0119DA00EAD12F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4996C2F61A0119DA00EAD12F /* TodayViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B980C0F519FE4D2A004D6FB9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -295,6 +461,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		4996C2FA1A0119DA00EAD12F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4996C2EE1A0119DA00EAD12F /* PapertronToday */;
+			targetProxy = 4996C2F91A0119DA00EAD12F /* PBXContainerItemProxy */;
+		};
 		B980C11019FE4D2A004D6FB9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = B980C0F819FE4D2A004D6FB9 /* papertron */;
@@ -322,6 +493,34 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		4996C2FD1A0119DA00EAD12F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2282C21591DD471A92606F17 /* Pods-PapertronToday.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Matteo Comisso (S7YH5DL2AY)";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PapertronToday/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		4996C2FE1A0119DA00EAD12F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2282C21591DD471A92606F17 /* Pods-PapertronToday.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = PapertronToday/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 		B980C11619FE4D2A004D6FB9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -401,10 +600,12 @@
 		};
 		B980C11919FE4D2A004D6FB9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F521CB8C99924942A92EE19F /* Pods-papertron.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer: Matteo Comisso (S7YH5DL2AY)";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -420,10 +621,12 @@
 		};
 		B980C11A19FE4D2A004D6FB9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F521CB8C99924942A92EE19F /* Pods-papertron.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -438,6 +641,7 @@
 		};
 		B980C11C19FE4D2A004D6FB9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C988B46CA6474599A049E8E1 /* Pods-papertronTests.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -457,6 +661,7 @@
 		};
 		B980C11D19FE4D2A004D6FB9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C988B46CA6474599A049E8E1 /* Pods-papertronTests.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -473,6 +678,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		4996C2FC1A0119DA00EAD12F /* Build configuration list for PBXNativeTarget "PapertronToday" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4996C2FD1A0119DA00EAD12F /* Debug */,
+				4996C2FE1A0119DA00EAD12F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		B980C0F419FE4D2A004D6FB9 /* Build configuration list for PBXProject "papertron" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
