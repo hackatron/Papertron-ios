@@ -24,8 +24,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             println("Found \(path)")
             keysDictionary = NSDictionary(contentsOfFile: path)!
             
-            let applicationId = keysDictionary["applicationId"]! as String
-            let clientKey = keysDictionary["clientKey"]! as String
+            let applicationId = keysDictionary["applicationID"] as? String
+            let clientKey = keysDictionary["clientKey"] as? String
 
             println("Application Key: \(applicationId), Client Key: \(clientKey)")
             Parse.setApplicationId(applicationId, clientKey: clientKey)
