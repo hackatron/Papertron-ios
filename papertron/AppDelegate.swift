@@ -14,7 +14,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
-
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
         
@@ -26,15 +25,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             
             let applicationId = keysDictionary["applicationID"] as? String
             let clientKey = keysDictionary["clientKey"] as? String
-
-            println("Application Key: \(applicationId), Client Key: \(clientKey)")
+            
+            ParseCrashReporting.enable()
+            
             Parse.setApplicationId(applicationId, clientKey: clientKey)
             
-            /*
-            var testObject = PFObject(className: "TestClass")
-            testObject.setObject("Banana", forKey: "TestCol")
-            testObject.saveEventually()
-            */
         }
 
         return true
