@@ -12,13 +12,19 @@
 		4996C2F61A0119DA00EAD12F /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4996C2F51A0119DA00EAD12F /* TodayViewController.swift */; };
 		4996C2F81A0119DA00EAD12F /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4996C2F71A0119DA00EAD12F /* MainInterface.storyboard */; };
 		4996C2FB1A0119DA00EAD12F /* PapertronToday.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 4996C2EF1A0119DA00EAD12F /* PapertronToday.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		49E773D319FFA699000171DA /* parseData.plist in Resources */ = {isa = PBXBuildFile; fileRef = 49E773D219FFA699000171DA /* parseData.plist */; };
+		B94F2DD61A4B29BD00B88815 /* parseData.plist in Resources */ = {isa = PBXBuildFile; fileRef = B94F2DD51A4B29BD00B88815 /* parseData.plist */; };
 		B980C0FF19FE4D2A004D6FB9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B980C0FE19FE4D2A004D6FB9 /* AppDelegate.swift */; };
 		B980C10119FE4D2A004D6FB9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B980C10019FE4D2A004D6FB9 /* ViewController.swift */; };
 		B980C10419FE4D2A004D6FB9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B980C10219FE4D2A004D6FB9 /* Main.storyboard */; };
 		B980C10619FE4D2A004D6FB9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B980C10519FE4D2A004D6FB9 /* Images.xcassets */; };
 		B980C10919FE4D2A004D6FB9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B980C10719FE4D2A004D6FB9 /* LaunchScreen.xib */; };
 		B980C11519FE4D2A004D6FB9 /* papertronTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B980C11419FE4D2A004D6FB9 /* papertronTests.swift */; };
+		B9EFA0DE1A4B3FD500AD53FE /* UserCheckTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9EFA0DD1A4B3FD500AD53FE /* UserCheckTabBarController.swift */; };
+		B9EFA0E01A4B537000AD53FE /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9EFA0DF1A4B537000AD53FE /* UserViewController.swift */; };
+		B9EFA0E21A4B693700AD53FE /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9EFA0E11A4B693700AD53FE /* SettingsViewController.swift */; };
+		B9EFA0E41A4B832A00AD53FE /* newPaperViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9EFA0E31A4B832A00AD53FE /* newPaperViewController.swift */; };
+		B9EFA0E91A4B916200AD53FE /* HomeStatusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9EFA0E81A4B916200AD53FE /* HomeStatusViewController.swift */; };
+		B9EFA0EB1A4B9E4300AD53FE /* PaperDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9EFA0EA1A4B9E4200AD53FE /* PaperDetailsViewController.swift */; };
 		ECA61D8B9AC842C1AA179ED4 /* libPods-PapertronToday.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A10A4BD2E0E44B087E5B2ED /* libPods-PapertronToday.a */; };
 		FD3C5960ECE44BBDBB04FC9A /* libPods-papertron.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F59E5840E82945EBB2CC55A7 /* libPods-papertron.a */; };
 /* End PBXBuildFile section */
@@ -55,15 +61,20 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		2282C21591DD471A92606F17 /* Pods-PapertronToday.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PapertronToday.xcconfig"; path = "Pods/Pods-PapertronToday.xcconfig"; sourceTree = "<group>"; };
+		1477BABBF01614706C0F8048 /* Pods-papertronTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-papertronTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-papertronTests/Pods-papertronTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2BAE759907240054CD144355 /* Pods-papertron.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-papertron.debug.xcconfig"; path = "Pods/Target Support Files/Pods-papertron/Pods-papertron.debug.xcconfig"; sourceTree = "<group>"; };
+		2D6CAD125F45795987252D1E /* Pods-papertronTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-papertronTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-papertronTests/Pods-papertronTests.release.xcconfig"; sourceTree = "<group>"; };
 		3A10A4BD2E0E44B087E5B2ED /* libPods-PapertronToday.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PapertronToday.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4996C2EF1A0119DA00EAD12F /* PapertronToday.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = PapertronToday.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		4996C2F01A0119DA00EAD12F /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
 		4996C2F41A0119DA00EAD12F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4996C2F51A0119DA00EAD12F /* TodayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayViewController.swift; sourceTree = "<group>"; };
 		4996C2F71A0119DA00EAD12F /* MainInterface.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainInterface.storyboard; sourceTree = "<group>"; };
-		49E773D219FFA699000171DA /* parseData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = parseData.plist; sourceTree = "<group>"; };
 		616FCEC294634EA48B2F5240 /* libPods-papertronTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-papertronTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B145D2B408AB329FABB661D /* Pods-PapertronToday.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PapertronToday.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PapertronToday/Pods-PapertronToday.debug.xcconfig"; sourceTree = "<group>"; };
+		8D01200CFAE663EABE86216B /* Pods-PapertronToday.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PapertronToday.release.xcconfig"; path = "Pods/Target Support Files/Pods-PapertronToday/Pods-PapertronToday.release.xcconfig"; sourceTree = "<group>"; };
+		A2D3511E3CD816ED428B84EF /* Pods-papertron.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-papertron.release.xcconfig"; path = "Pods/Target Support Files/Pods-papertron/Pods-papertron.release.xcconfig"; sourceTree = "<group>"; };
+		B94F2DD51A4B29BD00B88815 /* parseData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = parseData.plist; sourceTree = "<group>"; };
 		B980C0F919FE4D2A004D6FB9 /* papertron.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = papertron.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B980C0FD19FE4D2A004D6FB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B980C0FE19FE4D2A004D6FB9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -75,9 +86,13 @@
 		B980C11319FE4D2A004D6FB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B980C11419FE4D2A004D6FB9 /* papertronTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = papertronTests.swift; sourceTree = "<group>"; };
 		B99111CC19FEF36B00C734E0 /* papertron-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "papertron-Bridging-Header.h"; sourceTree = "<group>"; };
+		B9EFA0DD1A4B3FD500AD53FE /* UserCheckTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserCheckTabBarController.swift; sourceTree = "<group>"; };
+		B9EFA0DF1A4B537000AD53FE /* UserViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserViewController.swift; sourceTree = "<group>"; };
+		B9EFA0E11A4B693700AD53FE /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		B9EFA0E31A4B832A00AD53FE /* newPaperViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = newPaperViewController.swift; sourceTree = "<group>"; };
+		B9EFA0E81A4B916200AD53FE /* HomeStatusViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeStatusViewController.swift; sourceTree = "<group>"; };
+		B9EFA0EA1A4B9E4200AD53FE /* PaperDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaperDetailsViewController.swift; sourceTree = "<group>"; };
 		C0C8D225DEF64DAC98C78FF4 /* libPods-papertronToday.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-papertronToday.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C988B46CA6474599A049E8E1 /* Pods-papertronTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-papertronTests.xcconfig"; path = "Pods/Pods-papertronTests.xcconfig"; sourceTree = "<group>"; };
-		F521CB8C99924942A92EE19F /* Pods-papertron.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-papertron.xcconfig"; path = "Pods/Pods-papertron.xcconfig"; sourceTree = "<group>"; };
 		F59E5840E82945EBB2CC55A7 /* libPods-papertron.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-papertron.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -128,6 +143,19 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		4FAD84AFCBA7EF380A405BC0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8B145D2B408AB329FABB661D /* Pods-PapertronToday.debug.xcconfig */,
+				8D01200CFAE663EABE86216B /* Pods-PapertronToday.release.xcconfig */,
+				2BAE759907240054CD144355 /* Pods-papertron.debug.xcconfig */,
+				A2D3511E3CD816ED428B84EF /* Pods-papertron.release.xcconfig */,
+				1477BABBF01614706C0F8048 /* Pods-papertronTests.debug.xcconfig */,
+				2D6CAD125F45795987252D1E /* Pods-papertronTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		B9449A6319FEED9F008E334D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -140,6 +168,13 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		B94F2DCF1A4B28FB00B88815 /* OBJC Libraries */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "OBJC Libraries";
+			sourceTree = "<group>";
+		};
 		B980C0F019FE4D2A004D6FB9 = {
 			isa = PBXGroup;
 			children = (
@@ -148,9 +183,7 @@
 				B980C0FB19FE4D2A004D6FB9 /* papertron */,
 				B980C11119FE4D2A004D6FB9 /* papertronTests */,
 				B980C0FA19FE4D2A004D6FB9 /* Products */,
-				F521CB8C99924942A92EE19F /* Pods-papertron.xcconfig */,
-				C988B46CA6474599A049E8E1 /* Pods-papertronTests.xcconfig */,
-				2282C21591DD471A92606F17 /* Pods-PapertronToday.xcconfig */,
+				4FAD84AFCBA7EF380A405BC0 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -167,14 +200,15 @@
 		B980C0FB19FE4D2A004D6FB9 /* papertron */ = {
 			isa = PBXGroup;
 			children = (
+				B94F2DCF1A4B28FB00B88815 /* OBJC Libraries */,
 				B980C0FE19FE4D2A004D6FB9 /* AppDelegate.swift */,
-				B980C10019FE4D2A004D6FB9 /* ViewController.swift */,
+				B94F2DD51A4B29BD00B88815 /* parseData.plist */,
+				B9EFA0DC1A4B3FA500AD53FE /* Views */,
 				B980C10219FE4D2A004D6FB9 /* Main.storyboard */,
 				B980C10519FE4D2A004D6FB9 /* Images.xcassets */,
 				B980C10719FE4D2A004D6FB9 /* LaunchScreen.xib */,
 				B980C0FC19FE4D2A004D6FB9 /* Supporting Files */,
 				B99111CC19FEF36B00C734E0 /* papertron-Bridging-Header.h */,
-				49E773D219FFA699000171DA /* parseData.plist */,
 			);
 			path = papertron;
 			sourceTree = "<group>";
@@ -202,6 +236,44 @@
 				B980C11319FE4D2A004D6FB9 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B9EFA0DC1A4B3FA500AD53FE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B9EFA0E51A4B90EB00AD53FE /* Registration | Login */,
+				B9EFA0E71A4B913D00AD53FE /* User Views */,
+				B9EFA0DD1A4B3FD500AD53FE /* UserCheckTabBarController.swift */,
+				B9EFA0E81A4B916200AD53FE /* HomeStatusViewController.swift */,
+				B9EFA0EA1A4B9E4200AD53FE /* PaperDetailsViewController.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		B9EFA0E51A4B90EB00AD53FE /* Registration | Login */ = {
+			isa = PBXGroup;
+			children = (
+				B980C10019FE4D2A004D6FB9 /* ViewController.swift */,
+			);
+			name = "Registration | Login";
+			sourceTree = "<group>";
+		};
+		B9EFA0E61A4B910E00AD53FE /* Paper submission */ = {
+			isa = PBXGroup;
+			children = (
+				B9EFA0E31A4B832A00AD53FE /* newPaperViewController.swift */,
+			);
+			name = "Paper submission";
+			sourceTree = "<group>";
+		};
+		B9EFA0E71A4B913D00AD53FE /* User Views */ = {
+			isa = PBXGroup;
+			children = (
+				B9EFA0E11A4B693700AD53FE /* SettingsViewController.swift */,
+				B9EFA0DF1A4B537000AD53FE /* UserViewController.swift */,
+				B9EFA0E61A4B910E00AD53FE /* Paper submission */,
+			);
+			name = "User Views";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -325,7 +397,7 @@
 			files = (
 				B980C10419FE4D2A004D6FB9 /* Main.storyboard in Resources */,
 				B980C10919FE4D2A004D6FB9 /* LaunchScreen.xib in Resources */,
-				49E773D319FFA699000171DA /* parseData.plist in Resources */,
+				B94F2DD61A4B29BD00B88815 /* parseData.plist in Resources */,
 				B980C10619FE4D2A004D6FB9 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -367,7 +439,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Pods-PapertronToday-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PapertronToday/Pods-PapertronToday-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		4082932A0A904845B6F737F4 /* Check Pods Manifest.lock */ = {
@@ -412,7 +484,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Pods-papertronTests-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-papertronTests/Pods-papertronTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		ABEB1E14C8224B27AC2E8BEC /* Copy Pods Resources */ = {
@@ -427,7 +499,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Pods-papertron-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-papertron/Pods-papertron-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -445,8 +517,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B9EFA0EB1A4B9E4300AD53FE /* PaperDetailsViewController.swift in Sources */,
+				B9EFA0E41A4B832A00AD53FE /* newPaperViewController.swift in Sources */,
 				B980C10119FE4D2A004D6FB9 /* ViewController.swift in Sources */,
+				B9EFA0E01A4B537000AD53FE /* UserViewController.swift in Sources */,
+				B9EFA0DE1A4B3FD500AD53FE /* UserCheckTabBarController.swift in Sources */,
+				B9EFA0E21A4B693700AD53FE /* SettingsViewController.swift in Sources */,
 				B980C0FF19FE4D2A004D6FB9 /* AppDelegate.swift in Sources */,
+				B9EFA0E91A4B916200AD53FE /* HomeStatusViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -495,7 +573,7 @@
 /* Begin XCBuildConfiguration section */
 		4996C2FD1A0119DA00EAD12F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2282C21591DD471A92606F17 /* Pods-PapertronToday.xcconfig */;
+			baseConfigurationReference = 8B145D2B408AB329FABB661D /* Pods-PapertronToday.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer: Matteo Comisso (S7YH5DL2AY)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -511,7 +589,7 @@
 		};
 		4996C2FE1A0119DA00EAD12F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2282C21591DD471A92606F17 /* Pods-PapertronToday.xcconfig */;
+			baseConfigurationReference = 8D01200CFAE663EABE86216B /* Pods-PapertronToday.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = PapertronToday/Info.plist;
@@ -600,7 +678,7 @@
 		};
 		B980C11919FE4D2A004D6FB9 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F521CB8C99924942A92EE19F /* Pods-papertron.xcconfig */;
+			baseConfigurationReference = 2BAE759907240054CD144355 /* Pods-papertron.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -621,7 +699,7 @@
 		};
 		B980C11A19FE4D2A004D6FB9 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F521CB8C99924942A92EE19F /* Pods-papertron.xcconfig */;
+			baseConfigurationReference = A2D3511E3CD816ED428B84EF /* Pods-papertron.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -641,7 +719,7 @@
 		};
 		B980C11C19FE4D2A004D6FB9 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C988B46CA6474599A049E8E1 /* Pods-papertronTests.xcconfig */;
+			baseConfigurationReference = 1477BABBF01614706C0F8048 /* Pods-papertronTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -661,7 +739,7 @@
 		};
 		B980C11D19FE4D2A004D6FB9 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C988B46CA6474599A049E8E1 /* Pods-papertronTests.xcconfig */;
+			baseConfigurationReference = 2D6CAD125F45795987252D1E /* Pods-papertronTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
