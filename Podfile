@@ -5,6 +5,7 @@ target "papertron" do
 #parse library framework
 pod 'Parse'
 pod 'ParseUI'
+pod 'ParseCrashReporting', '~> 1.6'
 end
 
 target "papertronTests" do
